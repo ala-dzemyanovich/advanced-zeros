@@ -34,9 +34,6 @@ module.exports = function getZerosCount(number, base) {
         sum = 0;
         power = 1;
     }
-    console.log(simpleFactors);
-    console.log(sum);
-    console.log(result);
     return Math.min.apply(null, result);
 }
 
